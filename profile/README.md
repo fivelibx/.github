@@ -20,9 +20,9 @@ Nosso principal produto em desenvolvimento é o **FiveLib**, uma plataforma web 
 
 | Repositório / Recurso                                                    | Finalidade                                                                        |
 | :------------------------------------------------------------------------ | :-------------------------------------------------------------------------------- |
-| 📁**[FiveLib (Core)](https://github.com/fivelibx/fivelib)**            | Monorepo principal contendo infraestrutura, API (Backend) e interface (Frontend). |
-| 🌐**[FiveLib Web](https://fivelib.vercel.app/)**                       | Ambiente de produção ativo e deploy estável da plataforma.                     |
-| 📊**[Quadro de Gestão](https://github.com/orgs/fivelibx/projects/1)** | Board de governança (Milestones/Issues) para rastreabilidade do progresso.       |
+| 📁[**FiveLib (Core)**](https://github.com/fivelibx/fivelib)            | Monorepo principal contendo infraestrutura, API (Backend) e interface (Frontend). |
+| 🌐[**FiveLib Web**](https://fivelib.vercel.app/)                       | Ambiente de produção ativo e deploy estável da plataforma.                     |
+| 📊[**Quadro de Gestão**](https://github.com/orgs/fivelibx/projects/1) | Board de governança (Milestones/Issues) para rastreabilidade do progresso.       |
 
 ---
 
