@@ -1,86 +1,56 @@
-# DevAcademicX
+# FiveLibX
 
-DevAcademicX é uma plataforma educacional voltada para iniciantes na área de programação.
-O objetivo é centralizar conteúdos, ferramentas e documentações em um único lugar, oferecendo um caminho claro para quem está começando.
+A **FiveLibX** é uma organização dedicada ao desenvolvimento de soluções em engenharia de software com foco educacional. Nosso ecossistema é projetado para mitigar a curva de aprendizado de desenvolvedores iniciantes, fornecendo ferramentas de curadoria, documentação e padronização arquitetural.
 
----
-
-## 🚀 Objetivo
-
-* Reduzir a confusão de iniciantes
-* Centralizar recursos confiáveis
-* Guiar o aprendizado de forma estruturada
-* Servir como base para evolução (web → mobile)
+Nossa premissa é o desenvolvimento guiado por **Arquitetura Limpa (Clean Architecture)** e **API-First**, garantindo que nossos projetos não sejam apenas funcionais, mas sirvam como referências de boas práticas de mercado.
 
 ---
 
-## 🧩 O que o projeto oferece
+## 🎯 Nossa Missão
 
-* Direcionamento para iniciantes (por onde começar)
-* Explicações de ferramentas (Docker, Git, APIs)
-* Links organizados para documentações oficiais
-* Sistema de autenticação (login/logout)
-* Sistema de favoritos
+* **Desacoplamento da Informação:** Reduzir a sobrecarga cognitiva centralizando recursos, documentações oficiais e ferramentas essenciais em interfaces unificadas.
+* **Padronização Técnica:** Expor desenvolvedores em transição de carreira ou fase acadêmica a padrões reais da indústria (Docker, CI/CD, Arquiteturas de Microsserviços).
+* **Escalabilidade Integrada:** Construir sistemas modulares que possuam um caminho claro de evolução (Web → Mobile).
 
 ---
 
-## 🏗️ Arquitetura
+## 📦 Projetos e Ecossistema
 
-O projeto segue o modelo **API-first**, com separação entre frontend e backend:
+Nosso principal produto em desenvolvimento é o **FiveLib**, uma plataforma web de curadoria e gestão de referências técnicas.
 
-```text
-Frontend → Backend (API) → Banco de Dados
-```
-
-* Backend é a fonte de dados
-* Frontend consome a API
-* Preparado para mobile no futuro
+| Repositório / Recurso                                                    | Finalidade                                                                        |
+| :------------------------------------------------------------------------ | :-------------------------------------------------------------------------------- |
+| 📁**[FiveLib (Core)](https://github.com/fivelibx/fivelib)**            | Monorepo principal contendo infraestrutura, API (Backend) e interface (Frontend). |
+| 🌐**[FiveLib Web](https://fivelib.vercel.app/)**                       | Ambiente de produção ativo e deploy estável da plataforma.                     |
+| 📊**[Quadro de Gestão](https://github.com/orgs/fivelibx/projects/1)** | Board de governança (Milestones/Issues) para rastreabilidade do progresso.       |
 
 ---
 
-## 📁 Estrutura
+## 🙌 Contribuição
 
-* `backend/` → API (FastAPI)
-* `frontend/` → aplicação web
-* `mobile/` → futuro
-* `docs/` → documentação do projeto
-* `infra/` → configuração de infraestrutura
+Seja você um estudante ou um desenvolvedor experiente, sua colaboração é bem-vinda. Nosso ecossistema cresce com a participação da comunidade:
 
----
-
-## 🛠️ Tecnologias
-
-* Backend: Python (FastAPI)
-* Frontend: JavaScript/TypeScript (React ou similar)
-* Banco de dados: relacional
-* Infra: Docker + Nginx
+* **Identificação de Demandas:** Utilize o [Quadro de Gestão](https://github.com/orgs/fivelibx/projects/1) para visualizar as prioridades atuais. Caso encontre uma tarefa com as labels `good first issue` ou `help wanted`, demonstre interesse na Issue correspondente dentro do repositório.
+* **Propostas e Sugestões:** Tem uma ideia de funcionalidade ou notou a ausência de uma ferramenta essencial? Encorajamos a abertura de novas  **Issues de Sugestão** , desde que respeitem os nossos padrões arquiteturais.
+* **Fluxo de Desenvolvimento:** Para contribuições de código, o fluxo obrigatório consiste em realizar um  **fork** , desenvolver em branch dedicada e submeter um **Pull Request** para revisão do Core Team.
 
 ---
 
-## 📚 Documentação
+## 🛠️ Stack Tecnológico Padrão
 
-A documentação completa está disponível em:
+Nossos repositórios seguem um stack tecnológico rigorosamente definido para garantir consistência em todo o ecossistema:
 
-```
-docs/
-```
-
----
-
-## 🤝 Contribuição
-
-O projeto segue padrões definidos para organização do time:
-
-* Uso de branches por feature
-* Pull Requests obrigatórios
-* Revisão de código antes de merge
+| Camada                       | Tecnologias de Referência                    |
+| :--------------------------- | :-------------------------------------------- |
+| 🐍**Backend / API**    | Python, FastAPI, SQLAlchemy, Alembic          |
+| ⚛️**Frontend / Web** | TypeScript, Next.js, React                    |
+| 🐘**Banco de Dados**   | PostgreSQL                                    |
+| 🐳**Infra / DevOps**   | Docker, Docker Compose, Nginx, GitHub Actions |
 
 ---
 
-## 👥 Contribuidores
+## 👥 Core Team & Mantenedores
 
-* [lucaspaiva-lp](https://github.com/lucaspaiva-lp)
-* [AlvesTK](https://github.com/AlvesTK)
-* [RodrigoDevBack](https://github.com/RodrigoDevBack)
-* [AlvesTK](https://github.com/AlvesTK)
-* [FIGFelip](https://github.com/FIGFelip)
+O desenvolvimento e a governança da organização são mantidos por nossa equipe de engenharia e arquitetura. Valorizamos revisões de código assíncronas, uso estrito de *Conventional Commits* e documentação contínua.
+
+> **Diretrizes de Contribuição:** O ambiente da organização fivelibx segue o princípio de *Documentation First*. Qualquer proposta de alteração estrutural deve ser precedida de debate arquitetural nas Issues correspondentes e seguir as regras do nosso [Guia de Contribuição](https://github.com/fivelibx/fivelib/blob/main/.github/CONTRIBUTING.md).
