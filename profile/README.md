@@ -51,6 +51,6 @@ Nossos repositórios seguem um stack tecnológico rigorosamente definido para ga
 
 ## 👥 Core Team & Mantenedores
 
-O desenvolvimento e a governança da organização são mantidos por nossa equipe de engenharia e arquitetura. Valorizamos revisões de código assíncronas, uso estrito de *Conventional Commits* e documentação contínua.
+A governança e a arquitetura do FiveLib são conduzidas por [lucaspaiva-lp](https://github.com/lucaspaiva-lp), garantindo a integridade e a evolução técnica do ecossistema. Valorizamos revisões de código assíncronas, uso estrito de Conventional Commits e documentação contínua.
 
-> **Diretrizes de Contribuição:** O ambiente da organização fivelibx segue o princípio de *Documentation First*. Qualquer proposta de alteração estrutural deve ser precedida de debate arquitetural nas Issues correspondentes e seguir as regras do nosso [Guia de Contribuição](https://github.com/fivelibx/fivelib/blob/main/.github/CONTRIBUTING.md).
+> Diretrizes de Contribuição: O ecossistema fivelibx segue o princípio de Documentation First. Qualquer proposta de alteração estrutural deve ser precedida de debate arquitetural nas Issues correspondentes e seguir estritamente o nosso [Guia de Contribuição](https://github.com/fivelibx/fivelib/blob/main/.github/CONTRIBUTING.md).
